@@ -4,3 +4,5 @@
 <div>
 <img src="tweet.png" width="500"/>
 </div>
+
+Main output file in companion_guide_output.md
