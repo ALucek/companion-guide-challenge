@@ -349,7 +349,7 @@ Tokenization is a fundamental step in preparing text for processing by large lan
 
 Regex patterns play a crucial role in defining how text should be tokenized. They allow for the specification of rules that determine which parts of the text should not be merged, ensuring more precise tokenization.
 
-<img src="frames/frame_3595.jpg" alt=" "They create a regex pattern here that looks very complicated, and we're going to go through it in a bit."" width="450"/>
+<img src="frames/frame_3595.jpg" alt="They create a regex pattern here that looks very complicated, and we're going to go through it in a bit." width="450"/>
 
 #### The Power of the `regex` Package
 
@@ -361,7 +361,7 @@ It's important to distinguish between the standard Python `re` module and the `r
 
 The regex pattern used in advanced tokenization can seem daunting at first glance. However, understanding its components reveals how it effectively separates text into tokens.
 
-<img src="frames/frame_3631.jpg" alt=" "So let's take a look at this pattern and what it's doing and why this is actually doing the separation that they are looking for."" width="450"/>
+<img src="frames/frame_3631.jpg" alt="So let's take a look at this pattern and what it's doing and why this is actually doing the separation that they are looking for." width="450"/>
 
 #### How the Pattern Works
 
@@ -373,7 +373,7 @@ The pattern is designed to match specific sequences in the text, using a combina
 
 To see the regex pattern in action, we apply it to an example string. This demonstrates how the pattern matches different parts of the text, effectively breaking it down into tokens.
 
-<img src="frames/frame_3646.jpg" alt=" "So what exactly is this doing? Well, re.findall will take this pattern and try to match it against this string."" width="450"/>
+<img src="frames/frame_3646.jpg" alt="So what exactly is this doing? Well, re.findall will take this pattern and try to match it against this string." width="450"/>
 
 #### The Outcome of Tokenization
 
